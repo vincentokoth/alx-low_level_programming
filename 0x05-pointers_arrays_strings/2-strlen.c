@@ -5,15 +5,13 @@
  */
 
 #include "holberton.h"
-#include <stdio.h>
 
-int main(void)
+int _strlen(char *s)
 {
-  char *str;
-    int len;
-
-    str = "Holberton!";
-    len = _strlen(str);
-    printf("%d\n", len);
-    return (0);
+    int a;
+    for (a=0; s[a]!="\0""\n"; a++)
+      {
+	continue;
+      }
+    return(a);
 }
