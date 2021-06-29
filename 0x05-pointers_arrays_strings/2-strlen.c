@@ -7,14 +7,14 @@
 #include "holberton.h"
 
 /**
- *_strlen-Leng of a string  
+ *_strlen-Leng of a string
  *@s:char
- *return:int 
+ *return:int
  */
 int _strlen(char *s)
 {
     int a;
-    
+
     for (a = 0; s[a] != '\0'; a++)
       {
 	continue;
