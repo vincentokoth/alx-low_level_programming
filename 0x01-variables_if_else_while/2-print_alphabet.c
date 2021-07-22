@@ -4,8 +4,9 @@
 
 /**
  *
- *main prints the alphabet in lowercase, followed by a new line.
+ *main- prints the alphabet in lowercase, followed by a new line.
  *
+ *Return- 0
  */
 int main(void)
 
@@ -15,8 +16,8 @@ int main(void)
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		putchar(lc);
-		putchar('\n');
 	}
+	putchar('\n');
 
 	return (0);
 }
