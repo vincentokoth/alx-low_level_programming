@@ -7,12 +7,16 @@
  *main prints the alphabet in lowercase, followed by a new line.
  *
  */
-main(void)
+int main(void)
 
 {
-	char ch;
+	char lc;
 
-	for (ch = ‘a’; ch <= ‘z’; ch++)
-		putchar(ch);
-	putchar('\n');
+	for (lc = 'a'; lc <= 'z'; lc++)
+	{
+		putchar(lc);
+		putchar('\n');
+	}
+
+	return (0);
 }
