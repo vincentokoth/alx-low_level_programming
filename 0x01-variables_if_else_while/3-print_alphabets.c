@@ -19,10 +19,9 @@ int main(void)
 
 	for (lts = 'A'; lts <= 'Z'; lts++)
 	{
-         	putchar(lts);
+		putchar(lts);
 	}
-        putchar('\n');
-
+	putchar('\n');
 
 	return (0);
 }
