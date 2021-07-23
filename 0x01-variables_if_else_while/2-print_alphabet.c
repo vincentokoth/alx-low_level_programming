@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *main- prints the alphabet in lowercase, followed by a new line.
+ *main- Prints the alphabet in lowercase, followed by a new line.
  *
- *Return- 0 if output is correct
+ *Return- 0 if output is correct.
  */
 int main(void)
 {
