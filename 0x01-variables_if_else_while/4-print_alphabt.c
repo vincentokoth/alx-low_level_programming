@@ -13,10 +13,6 @@ int main(void)
 
 	for (lc = 'a'; lc <= 'z'; lc++)
 		if (lc != 'e' && lc != 'q')
-		{
-			continue;
-		}
-
 	{
 		putchar(lc);
 	}
