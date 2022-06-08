@@ -1,6 +1,6 @@
 /*
  * File: 1-alphabet.c
- * Auth: Brennan D Baraban
+ * Auth: Vincent Okoth
  */
 
 #include "main.h"
@@ -10,7 +10,7 @@
  *
  * Return: Always 0.
  */
-void print_alpahbet(void)
+void print_alphabet(void)
 {
 	char ltr;
 
