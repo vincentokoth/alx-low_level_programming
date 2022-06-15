@@ -6,11 +6,9 @@
 #include "main.h"
 
 /*
- * A program that prints _putchar, followed by a new line.
+ * Main: that prints _putchar, followed by a new line.
  *
  */
-int main (void);
-
 int main(void)
 {
 	_putchar('_');
