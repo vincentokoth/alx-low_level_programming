@@ -14,11 +14,8 @@ void print_alphabet(void)
 {
 	char ltr = 'a';
 
-	while (ltr <= 'z')
-	{
+	for (ltr = 'a'; ltr <= 'z'; ltr++)
 		_putchar(ltr);
-		ltr++;
-	_putchar('\n');
-	}
 
+	_putchar('\n');
 }
