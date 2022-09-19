@@ -1,30 +1,31 @@
 /*
- * File: 7-puts_half.c
+ * File: 8-print_array.c
  * Author: Vincent Okoth
  */
 
 #include "main.h"
-
+#include <stdio.h>
 /**
- * puts_half - a function that prints n elements of an array of integers,
+ * print_array - a function that prints n elements of an array of integers,
  *	followed by a new line.
- * @str: The string to be printed.
+ * @a: The array of integers.
+ * @n: The number of elements to be printed.
  */
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	int index = 0, len = 0, n;
+	int index;
 
-	while (str[index++])
-		len++;
+	for (index = 0; index < n; index++)
+	{
 
-	if ((len % 2) == 0)
-		n = len / 2;
+		printf("%d", a[index]);
 
-	else
-		n = (len + 1) / 2;
+		if (index == n - 1)
+			continue;
 
-	for (index = n; index < len; index++)
-		_putchar(str[index]);
+		printf(", ");
 
-	_putchar('\n');
+	}
+
+	printf("\n");
 }
