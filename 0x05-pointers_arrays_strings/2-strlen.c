@@ -1,22 +1,23 @@
-/**
- * Task: 2-strlen.c
+/*
+ * FIle: 2-strlen.c
  *
- * Author: Okoth Vincent Odhiambo
+ * Author: Vincent Okoth
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
- *_strlen-Leng of a string
- *@s:char
- *return:int
+ * _strlen - a function that returns the length of a string.
+ * @s: string whose lenght is to be returned.
+ * Return:int
  */
 int _strlen(char *s)
 {
-int a;
-     for (a = 0; s[a] != '\0'; a++)
-{
-     continue;
-}
-return (a);
+	int a;
+	for (a = 0; s[a] != '\0'; a++)
+	{
+	continue;
+	}
+
+	return (a);
 }

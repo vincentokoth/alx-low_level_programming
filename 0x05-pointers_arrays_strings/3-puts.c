@@ -1,9 +1,9 @@
 /*
  * File: 3-puts.c
- * Auth: Okoth Vincent Odhiambo
+ * Author: Vincent Okoth
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _puts - Prints a string to stdout.
