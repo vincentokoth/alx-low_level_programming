@@ -1,12 +1,12 @@
 /*
  * File: 5-rev_string.c
- * Auth: Okoth Vincent Odhiambo
+ * Auth: Vincent Okoth
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
- * rev_string - Reverses a string.
+ * rev_string - a function that reverses a string.
  * @s: The string to be reversed.
  */
 void rev_string(char *s)

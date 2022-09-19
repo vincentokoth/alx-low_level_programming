@@ -1,12 +1,13 @@
 /*
  * File: 7-puts_half.c
- * Auth: Okoth Vincent Odhiambo
+ * Author: Vincent Okoth
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
- * puts_half - Prints half of a string.
+ * puts_half -  a function that prints half of a string,
+ *		followed by a new line.
  * @str: The string to be printed.
  */
 void puts_half(char *str)
@@ -18,7 +19,7 @@ void puts_half(char *str)
 
 	if ((len % 2) == 0)
 		n = len / 2;
-
+	
 	else
 		n = (len + 1) / 2;
 

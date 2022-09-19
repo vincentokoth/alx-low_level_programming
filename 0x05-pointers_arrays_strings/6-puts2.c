@@ -1,12 +1,13 @@
-*
+/*
  * File: 6-puts2.c
- * Auth: Okoth Vincent Odhiambo
+ * Auth: Vincent Okoth
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
- * puts2 - Prints one char out of two of a string.
+ * puts2 - Prints one char out of two of a string,
+ *	followed by a new line..
  * @str: The string containing characters.
  */
 void puts2(char *str)

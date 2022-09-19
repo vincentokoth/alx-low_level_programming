@@ -1,12 +1,13 @@
 /*
  * File: 7-puts_half.c
- * Auth: Okoth Vincent Odhiambo
+ * Author: Vincent Okoth
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
- * puts_half - Prints half of a string.
+ * puts_half - a function that prints n elements of an array of integers,
+ *	followed by a new line.
  * @str: The string to be printed.
  */
 void puts_half(char *str)
